@@ -2,8 +2,6 @@ package guru.springframework.assignment3.controllers;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class MyControllerTest {
 
     @Test
