@@ -1,8 +1,10 @@
 package guru.springframework.assignment3.controllers;
 
 import guru.springframework.assignment3.services.GreetingService;
+import org.springframework.stereotype.Controller;
 
 // best practice
+@Controller // spring managed component
 public class ConstructorInjectedController {
 
     private final GreetingService greetingService;
